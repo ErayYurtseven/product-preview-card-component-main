@@ -1,0 +1,103 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  letter-spacing: 10px;
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+h2 {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+.perfume {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.text_part {
+  background-color: white;
+  margin: 150px auto;
+  width: 40%;
+  padding-right: 20px;
+  height: 457px;
+  border-radius: 15px;
+}
+
+.description {
+  padding-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.price {
+  margin-top: 20px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+}
+
+.old_price{
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration-line: line-through;
+  color: hsl(228, 12%, 48%);
+  margin-left: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 40px 12px 40px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background: hsl(228, 12%, 48%);
+}
+
+
+.attribution {
+}
+  position: relative;
+  font-size: 11px;
+  margin: 100px auto 100px;
+  text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
